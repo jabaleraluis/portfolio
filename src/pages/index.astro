@@ -1,0 +1,376 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ScrollUp from '@components/structure/ScrollUp.astro';
+---
+
+<Layout description="Homepage">
+  <ScrollUp />
+  <!-- ========== HOME SECTION ========== -->
+  <section class="home__section" id="home">
+    <div class="home__header">
+      <div class="header__presentation">
+        <div class="presentation__title">
+          <h2>¡Hello!</h2>
+          <div class="name__line">
+            <div class="line"></div>
+            <h3>I'm Luis Jabalera</h3>
+          </div>
+          <h1>Software Developer</h1>
+        </div>
+        <div class="presentation__buttons">
+          <a href="#" class="knowme-btn">
+            <div class="border__button"></div>
+            Got a project?
+          </a>
+          <a href="/pdf/Resume.pdf" target="_blank" class="resume-btn">My resume</a>
+        </div>
+      </div>
+      <div class="header__picture">
+        <div class="geometric__box-1"></div>
+        <div class="geometric__box-2"></div>
+        <div class="picture">
+          <img src="src/assets/index/man.png" alt="" />
+        </div>
+        <div class="background">
+          <div class="neon__background"></div>
+          <div class="background__circle"></div>
+        </div>
+        <div class="arrows">
+          <svg class="arrow__left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <defs>
+              <linearGradient id="grad-top" x1="0%" y1="100%" x2="0%" y2="0%">
+                <stop offset="0%" stop-color="var(--principal-color)" stop-opacity=".1"></stop>
+                <stop offset="100%" stop-color="var(--principal-color)" stop-opacity="1"></stop>
+              </linearGradient>
+            </defs>
+            <path d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z" fill="none" stroke="url(#grad-top)" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <svg class="arrow__right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <defs>
+              <linearGradient id="grad-bottom" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="var(--principal-color)" stop-opacity=".1"></stop>
+                <stop offset="100%" stop-color="var(--principal-color)" stop-opacity="1"></stop>
+              </linearGradient>
+            </defs>
+            <path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z" fill="none" stroke="url(#grad-bottom)" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TAGLINE SECTION ========== -->
+  <section class="tagline__section">
+    <p class="tagline">"Transforming ideas into digital experiences."</p>
+  </section>
+
+  <!-- ========== OVERVIEW SECTION ========== -->
+  <section class="overview__section" id="about">
+    <div class="resume__section">
+      <div class="highlights__container">
+        <ul class="timeline__wrapper">
+          <li class="lines"></li>
+          <li class="points"></li>
+          <li class="lines"></li>
+          <li class="points"></li>
+          <li class="lines"></li>
+        </ul>
+        <div class="highlights__wrapper">
+          <p><i class="ri-global-line"></i> Website Development</p>
+          <p><i class="ri-palette-line"></i> UX/UI Design</p>
+          <p><i class="ri-tools-fill"></i> Full-Stack Mindset</p>
+        </div>
+      </div>
+      <div class="goals__wrapper">
+        <div class="goal">
+          <h1><i class="ri-terminal-line"></i>Why I code?</h1>
+          <p>My goal is to write <span>maintainable, clean, and understandable code</span> that makes development an enjoyable experience. To me, programming is an <span>art</span>: combining creativity and logic to transform ideas into reality. Every project I work on is an opportunity to keep <span>learning</span> and <span>growing</span>.</p>
+        </div>
+        <div class="objectives__wrapper">
+          <div class="objective">
+            <h1>10 <i class="ri-add-line"></i></h1>
+            <p>Completed Projects</p>
+          </div>
+          <div class="objective">
+            <h1>95 <i class="ri-percent-line"></i></h1>
+            <p>Client Satisfaction</p>
+          </div>
+          <div class="objective">
+            <h1>1 <i class="ri-add-line"></i></h1>
+            <p>Years of experience</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tech__preview">
+      <div class="preview__container">
+        <h1 class="title">My Tech Stack<i class="ri-code-s-slash-line"></i></h1>
+        <div class="sliders__container">
+          <div class="slider">
+            <div class="slide-track">
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/HTML.svg" alt="" />
+                  <h2>HTML</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/CSS.svg" alt="" />
+                  <h2>CSS</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/JavaScript.svg" alt="" />
+                  <h2>JavaScript</h2>
+                </div>
+              </div>
+              <a class="slide" href="https://laravel.com/docs/12.x" target="_blank" rel="noopener noreferrer">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/laravel.svg" alt="" />
+                  <h2>Laravel</h2>
+                </div>
+              </a>
+              <a class="slide" href="https://www.java.com/en/download/manual.jsp" target="_blank" rel="noopener noreferrer">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/java.svg" alt="" />
+                  <h2>Java</h2>
+                </div>
+              </a>
+              <a class="slide" href="https://www.mysql.com/downloads/" target="_blank" rel="noopener noreferrer">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/mysql.svg" alt="" />
+                  <h2>MySQL</h2>
+                </div>
+              </a>
+              <div class="slide">
+                <a class="tech-item" href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="src/assets/index/teck_stack/tools/vscode.svg" alt="" />
+                  <h2>VS Code</h2>
+                </a>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/HTML.svg" alt="" />
+                  <h2>HTML</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/CSS.svg" alt="" />
+                  <h2>CSS</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/JavaScript.svg" alt="" />
+                  <h2>JavaScript</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/laravel.svg" alt="" />
+                  <h2>Laravel</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/java.svg" alt="" />
+                  <h2>Java</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/mysql.svg" alt="" />
+                  <h2>MySQL</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/tools/vscode.svg" alt="" />
+                  <h2>VS Code</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider right">
+            <div class="slide-track">
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/HTML.svg" alt="" />
+                  <h2>HTML</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/CSS.svg" alt="" />
+                  <h2>CSS</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/JavaScript.svg" alt="" />
+                  <h2>JavaScript</h2>
+                </div>
+              </div>
+              <a class="slide" href="https://laravel.com/docs/12.x" target="_blank" rel="noopener noreferrer">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/laravel.svg" alt="" />
+                  <h2>Laravel</h2>
+                </div>
+              </a>
+              <a class="slide" href="https://www.java.com/en/download/manual.jsp" target="_blank" rel="noopener noreferrer">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/java.svg" alt="" />
+                  <h2>Java</h2>
+                </div>
+              </a>
+              <a class="slide" href="https://www.mysql.com/downloads/" target="_blank" rel="noopener noreferrer">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/mysql.svg" alt="" />
+                  <h2>MySQL</h2>
+                </div>
+              </a>
+              <div class="slide">
+                <a class="tech-item" href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="src/assets/index/teck_stack/tools/vscode.svg" alt="" />
+                  <h2>VS Code</h2>
+                </a>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/HTML.svg" alt="" />
+                  <h2>HTML</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/CSS.svg" alt="" />
+                  <h2>CSS</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/frontend/JavaScript.svg" alt="" />
+                  <h2>JavaScript</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/laravel.svg" alt="" />
+                  <h2>Laravel</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/java.svg" alt="" />
+                  <h2>Java</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/backend/mysql.svg" alt="" />
+                  <h2>MySQL</h2>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="tech-item">
+                  <img src="src/assets/index/teck_stack/tools/vscode.svg" alt="" />
+                  <h2>VS Code</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="see__all-btn" href="#">See all <i class="ri-arrow-right-s-line"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TECH STACK PREVIEW ========== -->
+
+  <!-- ========== RECENT WORKS SECTION ========== -->
+  <section class="projects__section" id="projects">
+    <div class="projects__container">
+      <div class="title">
+        <h1>Recent Works</h1>
+      </div>
+      <div class="cards__container">
+        <div class="card">
+          <div class="card-img">
+            <div class="img-wrapper">
+              <img src="src/assets/Prueba/abstract_1.jpg" alt="" />
+            </div>
+            <a href="" title="See online"><i class="ri-arrow-right-up-long-line"></i></a>
+          </div>
+          <div class="content">
+            <span>Website</span>
+            <h2>Lorem Ipsum</h2>
+            <p>distinctio repellat fuga eos, autem quidem perspiciatis magni sed reiciendis, quaerat unde, atque ullam voluptatibus? Repellendus, nisi illum!</p>
+          </div>
+          <div class="buttons">
+            <a href="">
+              <i class="ri-github-fill"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="">
+              <i class="ri-dribbble-fill"></i>
+              <span>Dribbble</span>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="img-wrapper">
+              <img src="src/assets/Prueba/abstract_2.jpg" alt="" />
+            </div>
+            <a href=""><i class="ri-arrow-right-up-long-line"></i></a>
+          </div>
+          <div class="content">
+            <span>Website</span>
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit adipisicing elit. Perferendis vero quae officia eveniet ratione ex ab accusamus tenetur, illo recusandae qui dignissimos? Ab?</p>
+          </div>
+          <div class="buttons">
+            <a href="">
+              <i class="ri-github-fill"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="">
+              <i class="ri-dribbble-fill"></i>
+              <span>Dribbble</span>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="img-wrapper">
+              <img src="src/assets/Prueba/abstract_4.jpg" alt="" />
+            </div>
+            <a href=""><i class="ri-arrow-right-up-long-line"></i></a>
+          </div>
+          <div class="content">
+            <span>Website</span>
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur numquam quia amet vero.</p>
+          </div>
+          <div class="buttons">
+            <a href="">
+              <i class="ri-github-fill"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="">
+              <i class="ri-dribbble-fill"></i>
+              <span>Dribbble</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact__section" id="contact">
+    <div class="contact__container"></div>
+  </section>
+</Layout>
