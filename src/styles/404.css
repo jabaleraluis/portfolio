@@ -143,7 +143,7 @@
   aspect-ratio: 1;
   background-color: var(--principal-color);
   filter: blur(90px);
-  opacity: 0.25;
+  opacity: 0.15;
   pointer-events: none;
   will-change: transform, border-radius;
 }
@@ -153,15 +153,14 @@
   left: -15%;
   border-radius: 42% 58% 65% 35% / 38% 45% 55% 62%;
   box-shadow: 45vw 35vh 0 -4rem var(--principal-color);
-  animation: blob-before 15s ease-in-out infinite alternate;
+  animation: blob-before 25s ease-in-out infinite alternate;
 }
 
 .error__404::after {
   right: -15%;
   bottom: -25%;
   border-radius: 65% 35% 48% 52% / 42% 62% 38% 58%;
-  opacity: 0.15;
-  animation: blob-after 18s ease-in-out infinite alternate;
+  animation: blob-after 25s ease-in-out infinite alternate;
 }
 
 .error__404 > * {
